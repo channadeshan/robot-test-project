@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${APP_URL}      file:///D:/XAMK/Year%203_2/Software%20testing/robot-testing-project/swag_labs.html
+${APP_URL}      file://${CURDIR}/docs/swag_labs.html
 ${BROWSER}      Chrome
 @{MY_SHOPPING_LIST}    1    3    4 
 @{remove_index}    1    2 
