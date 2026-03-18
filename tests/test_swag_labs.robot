@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 
 *** Variables ***
 ${APP_URL}      file://${CURDIR}/../docs/swag_labs.html
-${BROWSER}      Chrome
+${BROWSER}      headlesschrome
 @{MY_SHOPPING_LIST}    1    3    4 
 @{remove_index}    1    2 
 
