@@ -52,11 +52,11 @@ Checking Out Products
         Click Button  xpath=(//*[@id="cart-items"]/div/button)[${item}]
         Sleep    1.5s
     END
-    Input Text    id=first-name    Channa
+    Input Text    id=first_name    Channa
     Sleep    1s
-    Input Text    id=last-name     Perera
+    Input Text    id=last_name     Perera
     Sleep    1s
-    Input Text    id=postal-code   50100
+    Input Text    id=postal_code   50100
     Sleep    1s
     Click Button  xpath=//*[@id="checkout-page"]/div[2]/button
     Sleep    3s
